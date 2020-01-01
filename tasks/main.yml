@@ -1,0 +1,8 @@
+---
+- hosts: localhost 
+  name: play_1
+  tasks:
+    - name: Creating the Account
+      user:
+        name: test_3
+        password: '2cc88511a4cd61e01f8d1636a2c82470fef06c9f473cff464b61798588b284b6'
